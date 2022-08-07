@@ -1,0 +1,28 @@
+
+
+.onlineimg_main{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 50%;
+    border: 3px solid rgb(172, 102, 102);
+}
+.onlineimg{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+   position: relative;
+   width: 100%;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.online_dot{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(130, 173, 130);
+    border-radius: 50%;
+    
+}

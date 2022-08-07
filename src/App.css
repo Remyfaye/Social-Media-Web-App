@@ -1,7 +1,73 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
 }
 
+.App {
+  /* background-image: linear-gradient(#010c22,rgb(39, 1, 1)); */
+  background-color: #dbd2d252;
+  min-height: 100vh;
+  color: aliceblue;
+}
+.todos{
+  margin: 10px;
+  padding: 5px;
+  
+}
+.your-task{
+  margin:25px;
+  text-transform: capitalize;
+  color: #b4a9a9;
+  font-size: 20px;
+}
+.todo{
+  background-color:#061b44 ;
+  padding: 18px;
+  position: relative;
+  border-radius: 20px;
+  display: flex;
+  margin: 5px 10px;
+  align-items: center;
+  cursor: pointer;
+}
+.todo:hover{
+  opacity: 0.5;
+}
+.todo .delete-todo{
+  position: absolute;
+  right: 22px;
+  background-color: #df232385;
+  padding: 9px;
+  border-radius: 50%;
+  top: 20%;
+  bottom: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checkbox{
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+  height: 20px;
+  background-color: rgb(4, 53, 95);
+}
+.todos.is-complete .checkbox{
+  background-image: linear-gradient(#000a207a,rgb(15, 14, 14));
+}
+.todo .text{
+  font-size:18px;
+  margin-right: 30px;
+}
+.todos.is-complete {
+  
+  text-decoration: line-through;
+  color: #06296d;
+}
+.todos.is-complete .text{
+  text-decoration: line-through;
+  color: #06296d;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,13 +80,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  
+  min-height: 7vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 6vmin);
   color: white;
 }
 
@@ -36,3 +102,64 @@
     transform: rotate(360deg);
   }
 }
+
+.add-btn{
+  margin: 30px;
+  background-color: #28395c;
+  padding: 15px 35px;
+  font-size: 30px;
+  border-radius: 20%;
+  color: green;
+  box-shadow: 0 0 10px 2px rgba(0,0,0.23);
+}
+.add-btn:hover{
+  background-color: #28395c9c;
+}
+.add-todo{
+  font-size: 20px;
+  cursor: pointer;
+  color: green;
+}
+.add{
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  
+  justify-content: end;
+}
+.popup{
+ 
+  background-color: #211d29;
+  padding: 12px;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  transition: linear 9s ease-in-out;
+}
+.popupInput{
+  padding: 9px;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+}
+.close-btn{
+  
+  cursor: pointer;
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+

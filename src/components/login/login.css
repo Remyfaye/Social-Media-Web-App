@@ -1,0 +1,66 @@
+
+
+.login_wrapper{
+    background-color:  rgba(39, 39, 56, 0.712); 
+    color: white;
+    margin: 45px 30px;
+    height: 53vh;
+    padding-top: 20px;
+    border-radius: 20px;
+   
+} 
+input{
+    width: 80%;
+    margin:20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #e1e6ff;
+}
+.loginn{
+    height: 100vh;
+    background-color: #222f49;
+    
+    color: white;
+}
+.login_text{
+    text-align: center;
+}
+.login_moto{
+    font-size: medium;
+}
+.login_logo{
+    padding: 10px;
+   font-size: 39px;
+}
+.ligin_btn{
+    padding: 12px;
+    width: 60%;
+    margin: 20px 53px;
+    border-radius: 20px;
+    background-color: rgba(94, 144, 190, 0.808);
+}
+.login_btm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.register_btn{
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(105, 43, 129, 0.459);
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
